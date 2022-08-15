@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+   
+	<body>
+		<script src="script.js"></script>
+        
+            <div id="answer"   class="answer_list"> <span id="word"></span> </div>
+            
+       
+        <div class="center"><input type="button" name="answer" value="Wordle Answer" onclick="showDiv()" /> </div>
+        <div class="this"> <button onClick="window.location.reload();">Refresh Page</button></div>
+
+    <script>
+        import word from './script.js';
+        document.getElementById("word").innerHTML = word;
+    </script>
+ 
+    
+    </body>
+</html>
+
+
+      
+
